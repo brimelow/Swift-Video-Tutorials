@@ -27,31 +27,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBAction func toggleClicked(sender: NSMenuItem) {
         
+        let task = NSTask()
+        task.launchPath = "/usr/bin/defaults"
+        
         if(sender.state == NSOnState) {
             sender.state = NSOffState
-            let task = NSTask()
-            task.launchPath = "/usr/bin/defaults"
             task.arguments = ["write", "com.apple.finder", "AppleShowAllFiles", "NO"]
-            task.launch()
-            task.waitUntilExit()
-            let task2 = NSTask()
-            task2.launchPath = "/usr/bin/killall"
-            task2.arguments = ["Finder"]
-            task2.launch()
-
         }
         else {
             sender.state = NSOnState
-            let task = NSTask()
-            task.launchPath = "/usr/bin/defaults"
             task.arguments = ["write", "com.apple.finder", "AppleShowAllFiles", "YES"]
-            task.launch()
-            task.waitUntilExit()
-            let task2 = NSTask()
-            task2.launchPath = "/usr/bin/killall"
-            task2.arguments = ["Finder"]
-            task2.launch()
         }
+        
+        task.launch()
+        task.waitUntilExit()
+        
+        let killtask = NSTask()
+        killtask.launchPath = "/usr/bin/killall"
+        killtask.arguments = ["Finder"]
+        killtask.launch()
         
     }
 
