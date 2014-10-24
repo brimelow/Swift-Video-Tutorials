@@ -11,8 +11,6 @@
 		601FC4FE19F4BC7400BD8E6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601FC4FD19F4BC7400BD8E6B /* Images.xcassets */; };
 		601FC50119F4BC7400BD8E6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601FC4FF19F4BC7400BD8E6B /* MainMenu.xib */; };
 		601FC50D19F4BC7400BD8E6B /* MenubarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FC50C19F4BC7400BD8E6B /* MenubarAppTests.swift */; };
-		601FC51A19F4BF7C00BD8E6B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 601FC51819F4BF7C00BD8E6B /* icon.png */; };
-		601FC51B19F4BF7C00BD8E6B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 601FC51919F4BF7C00BD8E6B /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +32,6 @@
 		601FC50619F4BC7400BD8E6B /* MenubarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenubarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		601FC50B19F4BC7400BD8E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		601FC50C19F4BC7400BD8E6B /* MenubarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarAppTests.swift; sourceTree = "<group>"; };
-		601FC51819F4BF7C00BD8E6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		601FC51919F4BF7C00BD8E6B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +75,6 @@
 			children = (
 				601FC4FB19F4BC7400BD8E6B /* AppDelegate.swift */,
 				601FC4FD19F4BC7400BD8E6B /* Images.xcassets */,
-				601FC51819F4BF7C00BD8E6B /* icon.png */,
-				601FC51919F4BF7C00BD8E6B /* icon@2x.png */,
 				601FC4FF19F4BC7400BD8E6B /* MainMenu.xib */,
 				601FC4F919F4BC7400BD8E6B /* Supporting Files */,
 			);
@@ -192,10 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				601FC51A19F4BF7C00BD8E6B /* icon.png in Resources */,
 				601FC4FE19F4BC7400BD8E6B /* Images.xcassets in Resources */,
 				601FC50119F4BC7400BD8E6B /* MainMenu.xib in Resources */,
-				601FC51B19F4BF7C00BD8E6B /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +393,7 @@
 				601FC51219F4BC7400BD8E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601FC51319F4BC7400BD8E6B /* Build configuration list for PBXNativeTarget "MenubarAppTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +402,7 @@
 				601FC51519F4BC7400BD8E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
