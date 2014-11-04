@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E07F0131-7ADD-497D-BF74-DE407741D280</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CircleSplash</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>366CA4AA6B486F114DE3688D25A5A3EA372929BE</key>
+		<string>https://github.com/brimelow/Swift-Video-Tutorials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CircleSplash/CircleSplash.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>366CA4AA6B486F114DE3688D25A5A3EA372929BE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brimelow/Swift-Video-Tutorials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>366CA4AA6B486F114DE3688D25A5A3EA372929BE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>366CA4AA6B486F114DE3688D25A5A3EA372929BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift%20Video%20Tutorials</string>
+		</dict>
+	</array>
+</dict>
+</plist>
