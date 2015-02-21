@@ -29,8 +29,6 @@ extension UIImage {
         
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         
-        CGContextRelease(context)
-        
         return newImage
     }
     
